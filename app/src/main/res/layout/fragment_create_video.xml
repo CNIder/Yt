@@ -1,0 +1,93 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+
+    <TableRow>
+
+        <TextView
+            android:text="VideoID"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_column="0" />
+
+        <EditText
+            android:id="@+id/videoID"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="Nome"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_column="0" />
+
+        <EditText
+            android:id="@+id/Nome"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="Duração"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_column="0" />
+
+        <EditText
+            android:id="@+id/duracao"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="Data de criação"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_column="0" />
+
+        <EditText
+            android:id="@+id/data"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="autor"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_column="0" />
+
+        <EditText
+            android:id="@+id/autor"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <Button
+        android:text="Submeter Video"
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="1"/>
+</TableLayout>
